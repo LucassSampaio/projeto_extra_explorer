@@ -12,8 +12,8 @@ body {
 
 #destino {
   display: block;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   margin: 64px auto 32px;
 }
 
@@ -53,8 +53,13 @@ a {
 
 .links {
   text-align: center;
+  margin-bottom: 40.83px;
 }
 
 a + a {
-  padding: 42px;
+  padding-left: 42px;
+}
+
+.footer img {
+  width: 100%;
 }
